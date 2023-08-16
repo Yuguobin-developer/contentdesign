@@ -1,0 +1,18 @@
+
+/*
+ Font weights
+*/
+$font-weight-thin: 300;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-demi: 700;
+$font-weight-bold: 800;
+$font-weight-heavy: 900;
+
+@include fontFace("Avenir", "avenir_thin", $font-weight-thin);  /* Thin */
+@include fontFace("Avenir", "avenir_reg", $font-weight-regular);    /* Regular */
+@include fontFace("Avenir", "avenir_med", $font-weight-medium); /* Medium */
+@include fontFace("Avenir", "avenir_demi", $font-weight-demi);  /* Demi */
+@include fontFace("Avenir", "avenir_bold", $font-weight-bold);  /* Bold */
+@include fontFace("Avenir", "avenir_heavy", $font-weight-heavy); /* Heavy */
+

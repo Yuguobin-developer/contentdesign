@@ -1,0 +1,31 @@
+[2023-02-27 03:25:56] [cache_controller::purge_cache_queue_write] queue file not exist
+[2023-02-27 03:25:56] [cache_controller::wp_rocket_hooks] Purge whole Cloudflare cache (fired action: rocket_after_automatic_cache_purge_dir)
+[2023-02-27 03:26:01] [cache_controller::purge_cache_queue_job] I'm the purge cache cronjob
+[2023-02-27 03:26:02] [cache_controller::purge_all] Unable to purge the whole Cloudflare cache due to error: Could not route to /client/v4/zones/purge_cache, perhaps your object identifier is invalid? (err code: 7003)
+[2023-02-27 03:26:02] [cache_controller::purge_cache_queue_job] Cache purging complete
+[2023-02-27 04:38:12] [cache_controller::purge_cache_queue_write] queue file not exist
+[2023-02-27 04:38:12] [cache_controller::wp_rocket_hooks] Purge whole Cloudflare cache (fired action: rocket_after_automatic_cache_purge_dir)
+[2023-02-28 16:10:48] [cache_controller::purge_cache_queue_job] I'm the purge cache cronjob
+[2023-02-28 16:10:50] [cache_controller::purge_all] Unable to purge the whole Cloudflare cache due to error: Could not route to /client/v4/zones/purge_cache, perhaps your object identifier is invalid? (err code: 7003)
+[2023-02-28 16:10:50] [cache_controller::purge_cache_queue_job] Cache purging complete
+[2023-02-28 16:11:10] [cache_controller::purge_cache_queue_write] queue file not exist
+[2023-02-28 16:11:10] [cache_controller::wp_rocket_hooks] Purge whole Cloudflare cache (fired action: rocket_after_automatic_cache_purge_dir)
+[2023-02-28 16:50:34] [cache_controller::purge_cache_queue_job] I'm the purge cache cronjob
+[2023-02-28 16:50:35] [cache_controller::purge_all] Unable to purge the whole Cloudflare cache due to error: Could not route to /client/v4/zones/purge_cache, perhaps your object identifier is invalid? (err code: 7003)
+[2023-02-28 16:50:35] [cache_controller::purge_cache_queue_job] Cache purging complete
+[2023-02-28 16:50:36] [cache_controller::purge_cache_queue_write] queue file not exist
+[2023-02-28 16:50:36] [cache_controller::wp_rocket_hooks] Purge whole Cloudflare cache (fired action: rocket_after_automatic_cache_purge_dir)
+[2023-02-28 16:50:57] [cache_controller::purge_cache_queue_job] I'm the purge cache cronjob
+[2023-02-28 16:50:58] [cache_controller::purge_all] Unable to purge the whole Cloudflare cache due to error: Could not route to /client/v4/zones/purge_cache, perhaps your object identifier is invalid? (err code: 7003)
+[2023-02-28 16:50:58] [cache_controller::purge_cache_queue_job] Cache purging complete
+[2023-02-28 17:56:50] [cache_controller::purge_cache_queue_write] queue file not exist
+[2023-02-28 17:56:50] [cache_controller::wp_rocket_hooks] Purge whole Cloudflare cache (fired action: rocket_after_automatic_cache_purge_dir)
+[2023-02-28 17:57:06] [cache_controller::wp_rocket_hooks] Purge whole Cloudflare cache (fired action: rocket_after_automatic_cache_purge_dir)
+[2023-02-28 17:57:06] [cache_controller::purge_cache_queue_job] I'm the purge cache cronjob
+[2023-02-28 17:57:07] [cache_controller::purge_all] Unable to purge the whole Cloudflare cache due to error: Could not route to /client/v4/zones/purge_cache, perhaps your object identifier is invalid? (err code: 7003)
+[2023-02-28 17:57:07] [cache_controller::purge_cache_queue_job] Cache purging complete
+[2023-03-13 19:50:25] [cache_controller::purge_cache_queue_write] queue file not exist
+[2023-03-13 19:50:25] [cache_controller::wp_rocket_hooks] Purge whole Cloudflare cache (fired action: rocket_after_automatic_cache_purge_dir)
+[2023-03-13 19:51:43] [cache_controller::purge_cache_queue_job] I'm the purge cache cronjob
+[2023-03-13 19:51:44] [cache_controller::purge_all] Unable to purge the whole Cloudflare cache due to error: Could not route to /client/v4/zones/purge_cache, perhaps your object identifier is invalid? (err code: 7003)
+[2023-03-13 19:51:44] [cache_controller::purge_cache_queue_job] Cache purging complete

@@ -1,0 +1,50 @@
+/**
+ * Note that these styles are loaded *after* common styles, so that
+ * editor-specific styles using the same selectors will take precedence.
+ */
+.wp-block-content-design-attributes h3:after {
+    content: none;
+}
+.wp-block-content-design-attributes .block-editor-default-block-appender textarea.block-editor-default-block-appender__content  {
+    font-family: Avenir, sans-serif;
+}
+.wp-block-content-design-attributes .heading {
+    width: 100%;
+}
+
+.wp-block-content-design-attributes .heading h3 {
+    margin-top: 28px;
+    margin-bottom: 28px;
+    padding: 0 14px 0 14px;
+}
+.wp-block-content-design-attributes .col {
+    padding-left: 0;
+    padding-right: 0;
+}
+.wp-block-content-design-attributes {
+    margin-bottom: 20px;
+}
+.wp-block-content-design-attributes .col > ul{
+    margin-left: 0;
+}
+.wp-block-content-design-attributes .col > ul > li > ul {
+    margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+    .wp-block-content-design-attributes h3:after {
+        content: none;
+    }
+    .wp-block-content-design-attributes .heading {
+        width: 100%;
+        padding-right: 15px;
+    }
+    .wp-block-content-design-attributes .col {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .wp-block-content-design-attributes .col > ul{
+        padding-left: 0;
+        margin-left: 0;
+    }
+}

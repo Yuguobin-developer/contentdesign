@@ -1,0 +1,52 @@
+ul,
+ol {
+	margin: 0 0 20px 3em;
+}
+
+ul {
+	list-style: disc;
+	margin-left: 0;
+	padding-left: 18px;
+	margin-bottom: 20px;
+}
+
+ol {
+	list-style: decimal;
+	margin-left: 0;
+	padding-left: 18px;
+	margin-bottom: 20px;
+}
+
+li > ul,
+li > ol {
+	margin-bottom: 15px;
+	margin-left: 1.5em;
+}
+
+dt {
+	font-weight: 700;
+}
+
+dd {
+	margin: 0 1.5em 1.5em;
+}
+ul {
+	list-style: none; /* Remove default bullets */
+	> ul {
+		list-style: none; /* Remove default bullets */
+	}
+}
+
+ul li::before {
+	content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+	color: $color__bullet; /* Change the color */
+	font-weight: bold; /* If you want it to be bold */
+	display: inline-block; /* Needed to add space between the bullet and the text */
+	width: 1em; /* Also needed for space (tweak if needed) */
+	margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+.entry-content {
+	li {
+		margin-bottom: 10px;
+	}
+}

@@ -1,0 +1,111 @@
+.my-first-page {
+    margin-top: 40px;
+	background: #000;	
+	width: 100%;
+	position: absolute;
+	height: 100%;
+    padding-right: 31px;
+    padding-left: 31px;
+    margin-right: auto;
+    margin-left: auto;	
+    .back {
+    	padding-top: 5vh;
+    	a {
+    		color: #777777;
+    		color: 16px;
+			margin-left: 8px;
+    	}
+    	i {    		
+			color: #777777;
+			font-size: 25px;
+    	}
+    }
+    .title-2021 {
+    	h1 {
+    		color: #fff;
+    		font-size: 36px;
+    		margin-top: 8vh;
+    	}
+    }
+    .serial {
+    	color: #777777;
+    	font-size: 16px;
+    	margin-top: 1vh;
+    }
+    .foil-area {
+    	align-items: center;
+    	margin-top: 10vh;
+    	img {
+    		width: 100%;
+    	}
+    	label {
+    		color: white;
+    		font-size: 24px;
+    		font-weight: bold;
+    	}
+		i {
+			color: #777777;
+			font-size: 27px;
+			margin: 8px;
+			position: absolute;
+		}
+		.sold {
+			label {				
+				font-weight: bold;
+				font-size: 16px;
+				color: #A2A2A2;
+			}
+			a {
+				color: #777777;
+				font-size: 14px;
+    			font-weight: lighter;
+			}
+		}
+		p {
+			color: #777777;
+			font-size: 16px;
+		}
+		.part-two {
+			margin-top: 10vh;
+		}
+    }
+    .board-area {
+    	margin-top: 10vh;
+    	label {
+    		color: white;
+    		font-weight: bold;
+			font-size: 24px;
+    	}
+    	a {
+    		font-size: 16px;
+    		font-weight: lighter;
+			color: #777777;
+    	}
+    }
+    @media (max-width: 576px){
+    	position: unset;
+    	padding-bottom: 5vh;
+    	h1, label {
+    		font-size: 16px !important;
+    	}
+    	h1 {
+    		margin-top: 5vh !important;
+    	}
+    	p, span {
+    		font-size: 14px !important;
+    	}
+    	.fa-angle-down {
+    		position: absolute;
+    		right: 0;
+    	}
+    	.part-two {
+    		margin-top: 0px !important;
+    	}
+    	.board-area {
+			margin-top: 0px;
+    	}
+    	.foil-area {
+    		margin-top: 5vh;
+    	}
+    }
+}

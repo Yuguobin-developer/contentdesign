@@ -1,0 +1,84 @@
+.my-first-page {
+  background: #000;
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  padding-right: 31px;
+  padding-left: 31px;
+  margin-right: auto;
+  margin-left: auto; }
+  .my-first-page .back {
+    padding-top: 5vh; }
+    .my-first-page .back a {
+      color: #777777;
+      color: 16px;
+      margin-left: 8px; }
+    .my-first-page .back i {
+      color: #777777;
+      font-size: 25px; }
+  .my-first-page .title-2021 h1 {
+    color: #fff;
+    font-size: 36px;
+    margin-top: 8vh; }
+  .my-first-page .serial {
+    color: #777777;
+    font-size: 16px;
+    margin-top: 1vh; }
+  .my-first-page .foil-area {
+    align-items: center;
+    margin-top: 10vh; }
+    .my-first-page .foil-area img {
+      width: 100%; }
+    .my-first-page .foil-area label {
+      color: white;
+      font-size: 24px;
+      font-weight: bold; }
+    .my-first-page .foil-area i {
+      color: #777777;
+      font-size: 27px;
+      margin: 8px;
+      position: absolute; }
+    .my-first-page .foil-area .sold label {
+      font-weight: bold;
+      font-size: 16px;
+      color: #A2A2A2; }
+    .my-first-page .foil-area .sold a {
+      color: #777777;
+      font-size: 14px;
+      font-weight: lighter; }
+    .my-first-page .foil-area p {
+      color: #777777;
+      font-size: 16px; }
+    .my-first-page .foil-area .part-two {
+      margin-top: 10vh; }
+  .my-first-page .board-area {
+    margin-top: 10vh; }
+    .my-first-page .board-area label {
+      color: white;
+      font-weight: bold;
+      font-size: 24px; }
+    .my-first-page .board-area a {
+      font-size: 16px;
+      font-weight: lighter;
+      color: #777777; }
+  @media (max-width: 576px) {
+    .my-first-page {
+      position: unset;
+      padding-bottom: 5vh; }
+      .my-first-page h1, .my-first-page label {
+        font-size: 16px !important; }
+      .my-first-page h1 {
+        margin-top: 5vh !important; }
+      .my-first-page p, .my-first-page span {
+        font-size: 14px !important; }
+      .my-first-page .fa-angle-down {
+        position: absolute;
+        right: 0; }
+      .my-first-page .part-two {
+        margin-top: 0px !important; }
+      .my-first-page .board-area {
+        margin-top: 0px; }
+      .my-first-page .foil-area {
+        margin-top: 5vh; } }
+
+/*# sourceMappingURL=style.css.map */

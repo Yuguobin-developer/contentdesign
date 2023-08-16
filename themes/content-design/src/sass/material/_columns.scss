@@ -1,0 +1,34 @@
+ul.columned-list {
+  width: 100%;
+  overflow: hidden;
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  -o-column-count: 2;
+  column-count: 2;
+  list-style: none;
+  padding-left: 0;
+  font-weight: $font-weight-medium;
+  > li {
+    a {
+      text-decoration: none;
+      color: $color__link-pink;
+		&:hover {
+			text-decoration: underline;
+		}
+    }
+    &::before {
+      content: none;
+
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  ul.columned-list {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    -o-column-count: 3;
+    column-count: 3;
+  }
+
+}

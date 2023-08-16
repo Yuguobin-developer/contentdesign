@@ -1,0 +1,65 @@
+/* ------------- */
+/* --- JAMES --- */
+/* ------------- */
+
+//@import "util";
+@import "~bootstrap/scss/bootstrap.scss";
+@import "mixins/mixins-master";
+@import "variables-site/variables-site";
+@import "util";
+@import "fonts";
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+@import "normalize";
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+@import "typography/typography";
+/*--------------------------------------------------------------
+# Elements
+--------------------------------------------------------------*/
+@import "elements/elements";
+
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+@import "navigation/links";
+///* Main column width */
+.wp-block {
+	max-width: 590px;
+}
+
+/* Width of "wide" blocks */
+.wp-block[data-align="wide"] {
+	max-width: 590px;
+}
+
+/* Width of "full-wide" blocks */
+.wp-block[data-align="full"] {
+	max-width: none;
+}
+.components-icon-button {
+	overflow: hidden;
+}
+body {
+	font-family: Avenir, sans-serif !important;
+	font-size: 17px;
+	line-height: 25px;
+	color: $color__text-main;
+}
+.editor-post-title {
+	textarea {
+		font-family: Avenir, sans-serif !important;
+		font-size: 40px;
+		font-style: normal;
+		font-weight: $font-weight-bold;
+		line-height: 48px;
+		color: $color__text-header;
+		margin-bottom: 10px;
+	}
+}
+
+@import "plugin-funk";
+@import "community/index";

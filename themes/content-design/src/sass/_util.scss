@@ -1,0 +1,144 @@
+// Clearfix
+@mixin clearfix {
+
+	&::after {
+		clear: both;
+		content: "";
+		display: table;
+	}
+}
+
+@mixin clear {
+	border-top: 1px solid transparent;
+	clear: both;
+}
+
+// Sets font-size and line-height rhythm
+@mixin rhythm($sizeValue: 12, $heightValue: 20) {
+	font-size: #{$sizeValue}px;
+	line-height: #{$heightValue}px;
+}
+
+// Font face helper
+@mixin fontFace($family, $filename, $weight) {
+
+	@font-face {
+		font-family: $family;
+		font-style: normal;
+		font-weight: $weight;
+		src:
+			url("/wp-content/themes/content-design/fonts/#{$filename}.woff2") format("woff2"),
+			url("/wp-content/themes/content-design/fonts/#{$filename}.woff") format("woff");
+	}
+}
+
+// Spatial units
+$spatial_units: (
+	xxs: 4,
+	xs: 8,
+	s: 16,
+	r: 20,
+	l: 40,
+	xl: 60
+);
+
+$sides: (
+	"top",
+	"bottom"
+);
+
+@each $name, $size in $spatial_units {
+
+	@each $side in $sides {
+
+		.ids-margin-#{$side}-#{$name} {
+			margin-#{$side}: #{$size}px !important;
+		}
+	}
+}
+
+// Colors
+$colors: (
+	"black": #000,
+	"01-gray": #393a3d,
+	"02-gray": #6b6c72,
+	"03-gray": #8d9096,
+	"04-gray": #babec5,
+	"05-gray": #d4d7dc,
+	"06-gray": #e3e5e8,
+	"07-gray": #eceef1,
+	"08-gray": #f4f5f8,
+	"white": #fff,
+	"blue-tint": #ebf9ff,
+	"01-blue": #055393,
+	"intuit-blue": #0077c5,
+	"03-blue": #0097e6,
+	"04-blue": #21abf6,
+	"05-blue": #34bfff,
+	"01-green": #108000,
+	"quickbooks-green": #2ca01c,
+	"03-green": #53b700,
+	"04-green": #7fd000,
+	"05-green": #a9e838,
+	"01-red": #b80000,
+	"turbotax-red": #d52b1e,
+	"03-red": #e43834,
+	"04-red": #f25a52,
+	"05-red": #ff8979,
+	"01-orange": #f95700,
+	"02-cta-orange": #ff6a00,
+	"03-orange": #ff8000,
+	"04-orange": #ff9331,
+	"05-orange": #ffac61,
+	"01-yellow": #ffad00,
+	"02-yellow": #fb0,
+	"03-yellow": #ffca00,
+	"04-yellow": #ffdc00,
+	"05-yellow": #fe0,
+	"01-pink": #9c005e,
+	"02-pink": #c9007a,
+	"03-pink": #e31c9e,
+	"04-pink": #ff59cc,
+	"05-pink": #ff88ec,
+	"01-purple": #4e2b8f,
+	"02-purple": #6436af,
+	"03-purple": #7a3dd8,
+	"04-purple": #9457fa,
+	"05-purple": #a898ff,
+	"01-teal": #007f8b,
+	"mint-teal": #009cac,
+	"03-teal": #00b0c2,
+	"04-teal": #00c4d8,
+	"05-teal": #13dbf1,
+);
+
+@each $name, $hex in $colors {
+
+	.ids-color-#{$name} {
+		color: #{$hex};
+	}
+}
+
+@mixin input() {
+	background: $white;
+	border: 1px solid $gray04;
+	border-radius: 3px;
+	color: $gray01;
+	font-weight: $font-weight-medium;
+	margin-bottom: $xs;
+	outline: none;
+	padding: 8px;
+
+	@include rhythm(14,20);
+
+	&:focus {
+		background-color: hsla(0, 0%, 100%, 0.07);
+		border: 1px solid $blue01;
+		box-shadow: 0 0 0 2px rgba(0, 119, 197, 0.25);
+	}
+
+	&::placeholder {
+		color: $gray03;
+		font-weight: $font-weight-medium;
+	}
+}

@@ -1,0 +1,76 @@
+/**
+ * Note that these styles are loaded *after* common styles, so that
+ * editor-specific styles using the same selectors will take precedence.
+ */
+.wp-block-content-design-examples h3:after {
+    content: none;
+}
+
+.wp-block-content-design-examples .heading {
+    width: 100%;
+}
+
+.wp-block-content-design-examples .heading h3 {
+    color: #8d9096;
+}
+.wp-block-content-design-examples .col {
+    padding-left: 0;
+    padding-right: 0;
+}
+.wp-block-content-design-examples {
+    margin-bottom: 20px;
+}
+.wp-block-content-design-examples .col > ul{
+    margin-left: 0;
+}
+.wp-block-content-design-examples .col > ul > li > ul {
+    margin-bottom: 0;
+}
+@media (min-width: 768px) {
+    .wp-block-content-design-examples h3:after {
+        content: none;
+    }
+    .wp-block-content-design-examples .heading {
+        width: 200px;
+    }
+    .wp-block-content-design-examples .col {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .wp-block-content-design-examples .col h5 {
+    	padding-top: 10px;
+        padding-bottom: 10px !important;
+    }
+    .wp-block-content-design-examples .col > ul{
+        padding-left: 20px;
+        margin-left: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .word-list-item .wp-block-content-design-examples .heading {
+        width : 100% !important;
+    }
+
+    .word-list-item .wp-block-content-design-examples .col {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .word-list-item .wp-block-content-design-examples .col > ul{
+        padding-left: 0px !important;
+        margin-left: 0px !important;
+    }
+}
+
+.word-list-item .wp-block-content-design-examples .heading {
+    width : 100% !important;
+}
+
+.word-list-item .wp-block-content-design-examples .col {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.word-list-item .wp-block-content-design-examples .col > ul{
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+}

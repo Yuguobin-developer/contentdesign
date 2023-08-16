@@ -1,0 +1,24 @@
+/**
+ * Note that these styles are loaded *after* common styles, so that
+ * editor-specific styles using the same selectors will take precedence.
+ */
+.wp-block-content-design-post {
+    width : 100%;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #D4D7DC;
+}
+
+.wp-block-content-design-post-image {
+    width : 100%;
+    height: 0;
+    padding-top: 157px;
+    background-color: rgba(0,0,0,0.1);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 2px;
+    margin-bottom: 15px;
+}
+@media (min-width: 768px) {
+
+}

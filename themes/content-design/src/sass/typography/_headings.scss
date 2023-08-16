@@ -1,0 +1,79 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	clear: both;
+}
+
+h1 {
+	font-family: Avenir, sans-serif;
+	font-size: 40px;
+	line-height: 48px;
+	font-style: normal;
+	font-weight: $font-weight-bold;
+	color: $color__text-header;
+	margin-top: 0;
+	margin-bottom: 40px;
+	&::after {
+		content: ' ';
+		/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#c9007a+0,ff88ec+44,ffffff+47,ffffff+54,ff88ec+58,ff88ec+100 */
+		background: #c9007a; /* Old browsers */
+		background: -moz-linear-gradient(left,  #c9007a 0%, #c9007a 47%, #ffffff 47%, #ffffff 54%, #ff88ec 54%, #ff88ec 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(left,  #c9007a 0%,#c9007a 47%,#ffffff 47%,#ffffff 54%,#ff88ec 54%,#ff88ec 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to right,  #c9007a 0%,#c9007a 47%,#ffffff 47%,#ffffff 54%,#ff88ec 54%,#ff88ec 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9007a', endColorstr='#ff88ec',GradientType=1 ); /* IE6-9 */
+		display: block;
+		width: 64px;
+		height: 4px;
+		margin-top: 40px;
+	}
+}
+
+@media (min-width: 620px) {
+	h1 {
+		font-size: 72px;
+		line-height: 86px;
+	}
+}
+h2 {
+	font-family: Avenir, sans-serif;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: $font-weight-demi;
+	line-height: 36px;
+	color: $color__text-header;
+	margin-top: 0;
+	margin-bottom: 32px;
+}
+
+h3 {
+	font-family: Avenir, sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: $font-weight-bold;
+	line-height: 28px;
+	color: $color__text-header;
+	margin-bottom: 20px;
+	margin-top: 0;
+	//&::after {
+	//	display: block;
+	//	content: ' ';
+	//	border-bottom: 1px solid $color__border-hr;
+	//	width: 60px;
+	//	margin: 10px 0 10px 0;
+	//}
+}
+
+h4, h5, h6 {
+	font-family: Avenir, sans-serif;
+	font-size: 17px;
+	font-style: normal;
+	font-weight: $font-weight-bold;
+	line-height: 25px;
+	color: $color__text-header;
+	margin-bottom: 10px;
+	margin-top: 0;
+}
+

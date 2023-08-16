@@ -1,0 +1,33 @@
+@import "~@material/icon-button/mdc-icon-button";
+@import "~@material/fab/mdc-fab";
+
+.app-fab--absolute {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+@media(min-width: 1024px) {
+  .app-fab--absolute {
+  bottom: 1.5rem;
+    right: 1.5rem;
+  }
+}
+
+.btn:focus,.btn:active, .mdc-icon-button {
+  outline: none !important;
+  box-shadow: none;
+}
+/**
+ * Material button remove underline
+ */
+a.mdc-icon-button, a.mdc-icon-button:hover {
+  text-decoration: none !important;
+}
+.mdc-fab {
+  @include mdc-fab-container-color($color__link-nav-hover);
+  @include mdc-fab-ink-color($color__background-body);
+  &:visited {
+    @include mdc-fab-ink-color($color__background-body);
+  }
+}

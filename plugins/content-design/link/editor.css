@@ -1,0 +1,17 @@
+/**
+ * Note that these styles are loaded *after* common styles, so that
+ * editor-specific styles using the same selectors will take precedence.
+ */
+
+.wp-block-content-design-link a {
+    color: #c9007a !important;
+    text-decoration: none !important;
+}
+.wp-block-content-design-link svg{
+    width: 14px;
+    height: 14px;
+    margin-top: -5px;
+}
+@media (min-width: 768px) {
+
+}

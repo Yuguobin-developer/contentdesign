@@ -1,0 +1,98 @@
+/**
+ * Note that these styles are loaded *after* common styles, so that
+ * editor-specific styles using the same selectors will take precedence.
+ */
+.wp-block-content-design-attributes h3:after {
+    content: none;
+}
+
+.wp-block-content-design-attributes .heading {
+    width: 100%;
+}
+
+.wp-block-content-design-attributes {
+    border: 1px solid #BABEC5;
+    border-radius: 8px;
+    padding: 30px;
+    padding-bottom: 24px;
+    margin-top: 60px !important;
+    margin-bottom: 60px !important;
+}
+@media (max-width: 768px) {	
+	.wp-block-content-design-attributes {
+		border: 1px solid #BABEC5;
+		border-radius: 8px;
+		padding-left: 16px;
+		padding-right: 16px;
+		padding-bottom: 24px;
+		margin-top: 60px !important;
+		margin-bottom: 60px !important;
+	}
+}
+
+.wp-block-content-design-attributes h6{
+    margin: 0;
+    font-weight: unset;
+    padding-top: 34px !important; 
+    padding-bottom: 14px !important;
+    font-size: 16px !important;
+    font-family: AvenirNext forINTUIT medi !important;
+}
+.wp-block-content-design-attributes .heading h3 {
+    margin: 0 !important;
+    padding-bottom: 14px !important;
+    color: #393A3D;
+    font-size: 20px !important;
+    padding: 0px !important;
+}
+.wp-block-content-design-attributes a {
+    font-size: 20px !important;
+}
+.wp-block-content-design-attributes .col {
+    padding-left: 0;
+    padding-right: 0;
+}
+.wp-block-content-design-attributes {
+    margin-bottom: 60px !important;
+}
+.wp-block-content-design-attributes .col > ul{
+    margin-left: 0;
+}
+.wp-block-content-design-attributes .col > ul > li > ul {
+    margin-bottom: 0;
+}
+@media (min-width: 768px) {
+    .wp-block-content-design-attributes h3:after {
+        content: none;
+    }
+    .wp-block-content-design-attributes .heading {
+        padding-right: 15px;
+    }
+    .wp-block-content-design-attributes .col {
+        padding-right: 15px;
+    }
+    /*.wp-block-content-design-attributes .col p {
+        margin: 0;
+        padding-top: 24px !important; 
+        padding-bottom: 4px !important;
+        font-size: 16px !important;
+        font-family: AvenirNext forINTUIT medi !important;
+    }*/
+    .wp-block-content-design-attributes .col > ul{
+        padding-left: 0;
+        margin-left: 0;
+    }
+}
+
+.word-list-item .wp-block-content-design-attributes .heading {
+    width: 100% !important;
+    padding-right: 0 !important;
+}
+.word-list-item .wp-block-content-design-attributes .col {
+    padding-left: 0;
+    padding-right: 0;
+}
+.word-list-item .wp-block-content-design-attributes .col > ul{
+    padding-left: 0;
+    margin-left: 0;
+}

@@ -1,0 +1,40 @@
+
+.corner {
+	background-color: #fff;
+	height: 16px;
+	position: absolute;
+	width: 16px;
+}
+
+.corner::after {
+	background: $color__background-menu;
+	content: " ";
+	height: 16px;
+	position: absolute;
+	width: 16px;
+	z-index: -1;
+}
+
+.top-left {
+	border-top-left-radius: 200px;
+	left: 0;
+	top: 0;
+}
+
+.top-right {
+	border-top-right-radius: 200px;
+	right: 0;
+	top: 0;
+}
+
+.bottom-left {
+	border-bottom-left-radius: 200px;
+	bottom: 0;
+	left: 0;
+}
+
+.bottom-right {
+	border-bottom-right-radius: 200px;
+	bottom: 0;
+	right: 0;
+}

@@ -1,0 +1,92 @@
+ul.word-list-toc {
+  width: 100%;
+  overflow: hidden;
+  list-style: none;
+  padding-left: 0;
+  font-weight: $font-weight-medium;
+  > li {
+	  display: inline-block;
+	  width: 50px;
+    a {
+      text-decoration: none;
+      color: $color__link-pink;
+		&:hover {
+			text-decoration: underline;
+		}
+    }
+    &::before {
+      content: none;
+
+    }
+  }
+}
+.content-children, .content-word-list {
+	h2, h3 {
+		a {
+			margin-left: 10px;
+			display: inline-block;
+			border-radius: 50%;
+			width: 20px;
+			height: 20px;
+			background-color: $color__link-pink;
+			color: #fff;
+			text-align: center;
+			font-size: 14px;
+			margin-top: -4px;
+			line-height: 19px;
+			i {
+				width: 22px;
+				display: inline-block;
+				font-size: 14px;
+				line-height: 19px;
+			}
+			&:hover {
+				background-color: $color__link-footer;
+			}
+		}
+	}
+}
+
+@media (min-width: 768px) {
+  ul.word-list-toc {
+  }
+
+}
+.word-list-item.row {
+	margin-bottom: 40px;
+}
+.word-list-item h3:after {
+	content: none;
+}
+
+.word-list-item .heading {
+	width: 100%;
+}
+
+.word-list-item .heading h3 {
+}
+.word-list-item .col {
+	padding-left: 0;
+	padding-right: 0;
+}
+.word-list-item {
+	margin-bottom: 20px;
+}
+.word-list-item .col ul{
+	margin-left: 0;
+}
+@media (min-width: 768px) {
+	.word-list-item h3:after {
+		content: none;
+	}
+	.word-list-item .heading {
+		width: 200px;
+	}
+	.word-list-item .col {
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+	.word-list-item .col ul{
+		padding-left: 0;
+	}
+}

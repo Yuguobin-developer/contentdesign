@@ -1,0 +1,21 @@
+/**
+ * Note that these styles are loaded *after* common styles, so that
+ * editor-specific styles using the same selectors will take precedence.
+ */
+.wp-block-content-design-hero {
+    width: calc(100vw - 300px);
+    margin-left: -70px;
+    margin-right: -70px;
+}
+.wp-block-content-design-hero-image {
+    height: 374px;
+    width: 100%;
+    max-width: none;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+@media (min-width: 768px) {
+
+}

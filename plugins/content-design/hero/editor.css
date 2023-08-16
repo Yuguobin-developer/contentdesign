@@ -1,0 +1,46 @@
+/**
+ * Note that these styles are loaded *after* common styles, so that
+ * editor-specific styles using the same selectors will take precedence.
+ */
+.wp-block-content-design-hero {
+
+}
+.wp-block-content-design-hero-selected {
+    color: #9c0000 !important;
+}
+.wp-block-content-design-hero-button {
+    width : 100%;
+    height: 0;
+    padding-top: 30%;
+    position: relative;
+}
+.wp-block-content-design-hero-button > div {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    color: #c9007a;
+    text-align: center;
+    border: 1px solid #c9007a;
+    background-color: rgba(201, 0, 122, .17);
+}
+
+.wp-block-content-design-hero-big {
+    font-size: 4vw;
+    line-height: 4vw;
+    display: block;
+    text-align: center;
+    margin-bottom: 1vw;
+}
+.wp-block-content-design-hero-small {
+    font-size: 12px;
+    text-align: center;
+    display: block;
+
+}
+@media (min-width: 768px) {
+
+}

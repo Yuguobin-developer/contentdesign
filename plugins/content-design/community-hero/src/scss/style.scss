@@ -1,0 +1,78 @@
+$breakpoint-0: 561px;
+$breakpoint-1: 700px;
+$breakpoint-2: 1084px;
+$black: #393A3D;
+
+.community-hero {
+	padding: 40px 30px 50px;
+	margin-bottom: 12px;
+	width: 100%;
+	background-color: #000000;
+	background: linear-gradient(170deg, $black 0%, #000000 100%);
+	&-content {
+		max-width: 1024px;
+		margin: 0 auto;
+	}
+	h1 {
+		margin-top: 0;
+		color: #ffffff;
+		font-weight: bold;
+		font-size: 64px;
+		line-height: 72px;
+		span {
+			display: block;
+			color: #FF88EC;
+		}
+		&::after {
+			content: ' ';
+			/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#c9007a+0,ff88ec+44,ffffff+47,ffffff+54,ff88ec+58,ff88ec+100 */
+			background: #c9007a; /* Old browsers */
+			background: -moz-linear-gradient(left,  #c9007a 0%, #c9007a 47%, #ffffff 47%, #ffffff 54%, #ff88ec 54%, #ff88ec 100%); /* FF3.6-15 */
+			background: -webkit-linear-gradient(left,  #c9007a 0%,#c9007a 47%,#ffffff 47%,#ffffff 54%,#ff88ec 54%,#ff88ec 100%); /* Chrome10-25,Safari5.1-6 */
+			background: linear-gradient(to right,  #c9007a 0%,#c9007a 47%,transparent 47%,transparent 54%,#ff88ec 54%,#ff88ec 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9007a', endColorstr='#ff88ec',GradientType=1 ); /* IE6-9 */
+			display: block;
+			width: 64px;
+			height: 4px;
+			margin-top: 40px;
+		}
+	}
+	p {
+		font-size: 17px;
+		line-height: 25px;
+		color: #F4F5F8;
+		margin-bottom: 40px;
+	}
+	a {
+		display: inline-block;
+		background-color: #ffff;
+		color: $black;
+		text-decoration: none;
+
+		padding: 10px 49px;
+		border-radius: 25px;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 20px;
+	}
+}
+@media (min-width: $breakpoint-0) {
+	.community-hero-content {
+		max-width: 561px;
+		margin: 0 auto;
+		h1 {
+			font-size: 72px;
+			line-height: 86px;
+		}
+	}
+}
+@media (min-width: $breakpoint-2) {
+	.community-hero-content {
+		max-width: 1024px;
+		margin: 0 auto;
+		p, a {
+			max-width: 432px;
+			margin-left: 590px;
+		}
+	}
+}

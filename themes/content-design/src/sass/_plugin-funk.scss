@@ -1,0 +1,7 @@
+/**
+The editor is not removing styles evn when they have
+ */
+
+.wp-block-content-design-attributes h3:after {
+	content: none;
+}
